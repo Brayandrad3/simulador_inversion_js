@@ -15,11 +15,12 @@
 
 #simulator{
     width: 100%;
-    max-width: 1300px;
+    max-width: 100%;
     padding: 50px 60px;
-    border: 1px solid #22981c;
-    margin: 100px auto;
+    /* border: 1px solid #22981c; */
+    /* margin: 100px auto; */
     box-shadow: 0 0 3em #22981c;
+    background: transparent;
 }
 
 h1{
@@ -27,13 +28,17 @@ h1{
     font-weight: 700;
     color: #22981c;
     text-align: center;
+    padding-top: 20px;
     padding-bottom: 50px;
     border-bottom: 2px solid #22981c;
+    box-shadow: 0 0 3em #22981c;
+    background-color: transparent;
 }
 
 .cont-flex{
     width: 100%;
     display: flex;
+    background: transparent;
 }
 
 .left,
@@ -151,50 +156,64 @@ input::placeholder {
 }
 
 .right .post-simulation h3{
-    color: #202d37;
+    color: #7fc77b;
     font-size: 22px;
     font-weight: 300;
     margin-bottom: 40px;
 }
 
 .right .post-simulation h3 span{
-    color: #1c9882;
+    color: #22981c;
     font-weight: 600;
     font-size: 24px;
 }
 
 .right .total{
-    background: #1c988259;
+    background-color: #262a26;
     padding: 30px;
 }
 
 .right .total h4{
     font-size: 28px;
+    color: #22981c;
+        background-color: #262a26;
 }
 
 .right .total h2{
     font-size: 36px;
     padding: 14px 0;
+        background-color: #262a26;
 }
 
 .total p{
     font-weight: 400;
+    color: #9cd09b;
+        background-color: #262a26;
 }
 
 .total p span{
     font-weight: 600;
+    color: #9cd09b;
+        background-color: #262a26;
 }
+
+.total span{
+            background-color: #262a26;
+}
+
 
 .notificacion{
     padding: 20px;
-    border: 1px solid #1c9882;
+    border: 1px solid #22981c;
     margin-top: 40px;
 }
 
 .notificacion h5{
     font-weight: 400;
+    color: #9cd09b;
 }
 
 .notificacion h5 span{
     font-weight: 700;
+    color: #22981c;
 }
