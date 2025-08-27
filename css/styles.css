@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @font-face {
     font-family: 'Montserrat'; 
     src: url('Montserrat-VariableFont_wght.ttf') format('truetype'); /* Ruta relativa o absoluta de tu archivo .ttf */
@@ -7,25 +9,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Oswald", sans-serif;
+    background: #000000;
 }
 
 #simulator{
     width: 100%;
     max-width: 1300px;
     padding: 50px 60px;
-    border: 1px solid #dde0e8;
+    border: 1px solid #22981c;
     margin: 100px auto;
-    box-shadow: 0 0 3em #dfdfdf;
+    box-shadow: 0 0 3em #22981c;
 }
 
 h1{
     font-size: 34px;
     font-weight: 700;
-    color: #1c9882;
+    color: #22981c;
     text-align: center;
     padding-bottom: 50px;
-    border-bottom: 2px solid #7a93ab;
+    border-bottom: 2px solid #22981c;
 }
 
 .cont-flex{
@@ -40,7 +43,7 @@ h1{
 }
 
 h2{
-    color: #202d37;
+    color: #22981c;
     font-weight: 700;
     font-size: 28px;
     margin-bottom: 14px;
@@ -48,7 +51,7 @@ h2{
 
 .left p{
     margin-bottom: 30px;
-    color: #2f3c46;
+    color: #7fc77b;
 }
 
 form{
@@ -79,37 +82,42 @@ form{
 .group-data label{ 
     display: block;
     margin-bottom: 10px;
-    color: #202d37;
+    color: #7fc77b;
 }
 .group-data input,
 .group-data select{
     display: block;
     margin-bottom: 30px;
     width: 100%;
+    background: #9cd09b;
 } 
+
+.group-data select option{
+    background: #9cd09b
+}
 
 form button{
     display: block;
     width: 97%;
     padding: 14px 80px;
-    background: #1c9882;
+    background: #22981c;
     color: #fff;
-    border: 1px solid #1c9882;
+    border: 1px solid #155e11;
     transition: .4s;
     cursor: pointer;
 }
 
 form button:hover{
-    background: #f5f8fa;
-    border: 1px solid #1c9882;
-    color: #1c9882;
+    background: #d2ffd1;
+    border: 1px solid #155e11;
+    color: #22981c;
 }
 
 input, select{
     padding: 14px 30px;
-    background: #f5f8fa;
+    background: #9cd09b;
     border: 0;
-    border-bottom: 2px solid #7a93ab;
+    border-bottom: 2px solid #155e11;
     outline: none;
 }
 input::placeholder {
