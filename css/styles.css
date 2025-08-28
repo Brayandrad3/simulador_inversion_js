@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 @font-face {
-    font-family: 'Montserrat'; 
-    src: url('Montserrat-VariableFont_wght.ttf') format('truetype'); /* Ruta relativa o absoluta de tu archivo .ttf */
+    font-family: 'Montserrat';
+    src: url('Montserrat-VariableFont_wght.ttf') format('truetype');
+    /* Ruta relativa o absoluta de tu archivo .ttf */
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,17 +15,16 @@
     background: #000000;
 }
 
-#simulator{
+#simulator {
     width: 100%;
     max-width: 100%;
     padding: 50px 60px;
-    /* border: 1px solid #22981c; */
-    /* margin: 100px auto; */
+    margin: 100px auto;
     box-shadow: 0 0 3em #22981c;
     background: transparent;
 }
 
-h1{
+h1 {
     font-size: 34px;
     font-weight: 700;
     color: #22981c;
@@ -31,77 +32,79 @@ h1{
     padding-top: 20px;
     padding-bottom: 50px;
     border-bottom: 2px solid #22981c;
-    box-shadow: 0 0 3em #22981c;
     background-color: transparent;
 }
 
-.cont-flex{
+.cont-flex {
     width: 100%;
     display: flex;
     background: transparent;
 }
 
 .left,
-.right{
+.right {
     width: 50%;
     padding: 40px 20px;
 }
 
-h2{
+h2 {
     color: #22981c;
     font-weight: 700;
     font-size: 28px;
     margin-bottom: 14px;
 }
 
-.left p{
+.left p {
     margin-bottom: 30px;
     color: #7fc77b;
 }
 
-form{
+form {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.group-data.two-columns{
+.group-data.two-columns {
     width: 50%;
     box-sizing: border-box;
 }
-.group-data.one-column{
+
+.group-data.one-column {
     width: 100%;
 }
 
-.group-data.three-columns{
+.group-data.three-columns {
     width: 60%;
 }
 
-.group-data.four-columns{
+.group-data.four-columns {
     width: 40%;
 }
 
-.group-data{
+.group-data {
     padding-right: 16px;
 }
-.group-data label{ 
+
+.group-data label {
     display: block;
     margin-bottom: 10px;
     color: #7fc77b;
 }
+
 .group-data input,
-.group-data select{
+.group-data select {
     display: block;
     margin-bottom: 30px;
     width: 100%;
     background: #9cd09b;
-} 
+}
 
-.group-data select option{
+.group-data select option {
     background: #9cd09b
 }
 
-form button{
+form button {
     display: block;
     width: 97%;
     padding: 14px 80px;
@@ -112,24 +115,27 @@ form button{
     cursor: pointer;
 }
 
-form button:hover{
+form button:hover {
     background: #000000;
     border: 1px solid #155e11;
     color: #22981c;
 }
 
-input, select{
+input,
+select {
     padding: 14px 30px;
     background: #000000;
     border: 0;
     border-bottom: 2px solid #155e11;
     outline: none;
 }
+
 input::placeholder {
-    color: #000; /* Cambia este valor al color que desees */
+    color: #000;
+    /* Cambia este valor al color que desees */
 }
 
-.right .pre-simulation{
+.right .pre-simulation {
     width: 100%;
     height: 100%;
     position: relative;
@@ -138,7 +144,7 @@ input::placeholder {
     align-items: center;
 }
 
-.right img{
+.right img {
     max-width: 80%;
 }
 
@@ -155,65 +161,215 @@ input::placeholder {
     display: none;
 }
 
-.right .post-simulation h3{
+.right .post-simulation h3 {
     color: #7fc77b;
     font-size: 22px;
     font-weight: 300;
     margin-bottom: 40px;
 }
 
-.right .post-simulation h3 span{
+.right .post-simulation h3 span {
     color: #22981c;
     font-weight: 600;
     font-size: 24px;
 }
 
-.right .total{
+.right .total {
     background-color: #262a26;
     padding: 30px;
 }
 
-.right .total h4{
+.right .total h4 {
     font-size: 28px;
     color: #22981c;
-        background-color: #262a26;
+    background-color: #262a26;
 }
 
-.right .total h2{
+.right .total h2 {
     font-size: 36px;
     padding: 14px 0;
-        background-color: #262a26;
+    background-color: #262a26;
 }
 
-.total p{
+.total p {
     font-weight: 400;
     color: #9cd09b;
-        background-color: #262a26;
+    background-color: #262a26;
 }
 
-.total p span{
+.total p span {
     font-weight: 600;
     color: #9cd09b;
-        background-color: #262a26;
+    background-color: #262a26;
 }
 
-.total span{
-            background-color: #262a26;
+.total span {
+    background-color: #262a26;
 }
 
 
-.notificacion{
+.notificacion {
     padding: 20px;
     border: 1px solid #22981c;
     margin-top: 40px;
 }
 
-.notificacion h5{
+.notificacion h5 {
     font-weight: 400;
     color: #9cd09b;
 }
 
-.notificacion h5 span{
+.notificacion h5 span {
     font-weight: 700;
     color: #22981c;
+}
+
+.footer {
+    background-color: #000000;
+    /* Azul corporativo */
+    color: #fff;
+    padding: 30px 15px;
+    margin-top: 40px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    box-shadow: 0 0 3em #22981c;
+    border-radius: 20px;
+}
+
+.footer-info {
+    margin-left: 10px;
+}
+
+.footer-info h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #22981c;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #22981c;
+}
+
+.footer-social a img {
+    width: 24px;
+    margin: 0 5px;
+    transition: transform 0.3s;
+}
+
+.footer-social a img:hover {
+    transform: scale(1.2);
+}
+
+/*responsive*/
+
+
+/* Tablets y pantallas medianas */
+@media (max-width: 992px) {
+    #simulator {
+        padding: 30px 20px;
+        margin: 50px auto;
+    }
+
+    h1 {
+        font-size: 28px;
+        padding-bottom: 30px;
+    }
+
+    .cont-flex {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+        padding: 20px 10px;
+    }
+
+    .right .post-simulation {
+        padding: 0 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .footer-links {
+        margin-top: 10px;
+    }
+}
+
+/* Celulares */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .group-data.two-columns,
+    .group-data.one-column,
+    .group-data.three-columns,
+    .group-data.four-columns {
+        width: 100%;
+        /* Inputs a una sola columna */
+        padding-right: 0;
+    }
+
+    input,
+    select,
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+
+    form button {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .right img {
+        max-width: 100%;
+    }
+
+    .right .total h2 {
+        font-size: 28px;
+    }
+
+    .footer-info h3 {
+        font-size: 18px;
+    }
+
+    .footer-links a {
+        display: block;
+        margin: 6px 0;
+    }
+
+    .footer-social a img {
+        width: 28px;
+        margin: 0 8px;
+    }
 }
